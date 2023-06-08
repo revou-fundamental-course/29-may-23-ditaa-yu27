@@ -1,0 +1,79 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.atas{
+    border: 1px solid black;
+}
+
+.logo{
+    margin: 15px 15px 15px 15px;
+}
+
+.nav-bar{
+    margin: 0px 15px 0px 0px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.nav-item{
+    padding: 5px 1em;
+    width: 80px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+
+.nav-item:hover{
+    background-color: aqua;
+    margin-top: -3px;
+}
+
+.nav-bar:last-child{
+    border-right: none;
+}
+
+.logo{
+    height: 2cm;
+}
+
+.hero{
+    height: 550px;
+}
+
+
+.headquarters-image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1em;
+}
+
+.headquarters-image{
+    height: 5em;
+    width: 5em;
+    border-radius: 5em;
+    border: 1px solid black;
+}
+
+#profil-section{
+    padding: 0px 20px 0px 20px;
+    text-align: justify;
+    border: 1px solid black;
+}
+
+
+footer{
+    text-align: right;
+    border: 1px solid black;
+    padding: 20px 20px 20px 20px;
+}
